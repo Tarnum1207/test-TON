@@ -1,0 +1,21 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tonconnect/sdk": "^3.0.5",
+    "next": "14.2.15",
+    "primereact": "^10.8.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-router-dom": "^6.27.0",
+    "sass": "^1.80.3",
+    "tonweb": "^0.0.66"
+  }
+}

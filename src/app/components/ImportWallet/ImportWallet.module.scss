@@ -1,0 +1,38 @@
+.importWallet {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  textarea {
+    resize: none;
+    padding: 10px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 90%;
+  }
+  &Button {
+    background: #fff;
+    border-radius: 50px;
+    padding: 10px 15px;
+    border: 0;
+    color: #000;
+    cursor: pointer;
+  }
+  &Close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+}

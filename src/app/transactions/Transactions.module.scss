@@ -1,0 +1,98 @@
+.transactions {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  &Item {
+    width: 100%;
+    input{
+        color: #fff;
+    }
+  }
+  &TonValue {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    input {
+      border-radius: 6px;
+      background: rgb(55, 55, 55);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding: 8px 13px;
+      width: 30%;
+      border: 0;
+      color: #fff;
+    }
+    p {
+      color: rgb(249, 172, 0);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 17px;
+      letter-spacing: 0px;
+      text-align: left;
+      margin-left: 8px;
+    }
+  }
+  &ButtonWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    button{
+        border-radius: 4px;
+        padding: 4px 8px;
+        background: rgb(249, 172, 0);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: 0;
+        font-weight: 600;
+        color: #fff;
+        cursor: pointer;
+        img{
+            margin-right: 6px;
+        }
+    }
+
+  }
+}
+
+@media (max-width: 600px) {
+  .page {
+    padding: 23px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .main {
+    align-items: center;
+  }
+
+  .main ol {
+    text-align: center;
+  }
+
+  .ctas {
+    flex-direction: column;
+  }
+
+  .ctas a {
+    font-size: 14px;
+    height: 40px;
+    padding: 0 16px;
+  }
+
+  a.secondary {
+    min-width: auto;
+  }
+
+  .footer {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
